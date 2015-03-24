@@ -85,23 +85,17 @@
         <div id="header">
             <div id="header-inner">
 
-                <h1 id="site-title">
-                    <span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-                </h1>
-                <?php wp_nav_menu( array(
-                    'items_wrap'     => '<div id="menu-inner"><ul id="%1$s" class="%2$s">%3$s</ul></div>'
-                ) );
-                ?>
+                <h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
                 <div id="utility">
-                    <p>contato@guitarpro6.com.br</p>
+                    <p>Fale Conosco: contato@guitarpro6.com.br</p>
                 </div>
 
             </div>
         </div>
-
-        <?php if(is_front_page()) : ?>
-            <?php putRevSlider('anuncio'); ?>
-        <?php endif; ?>
-
+        
         <div id="center" class="clearfix">
             <div id="center-inner">
+               <?php wp_nav_menu( array(
+                        'items_wrap'     => '<div id="menu-inner"><ul id="%1$s" class="%2$s">%3$s</ul></div>'
+                      ) );
+                ?>

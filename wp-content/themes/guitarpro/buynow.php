@@ -6,27 +6,31 @@
 
 <?php get_header(); ?>
 
-    <div id="presentation" class="clearfix">
+    <div id="presentation">
+        <h1>
+            Guitar Pro 6<br/>
+        </h1>
         <h2>
-            Facilidade e Tradição
+            Compre com um Revendedor Autorizado Arobas-Music no Brasil!
         </h2>
-        <p>
-            Guitar Pro é o primeiro software criado para edição de tablaturas para guitarra, baixo e outros instrumentos de 4-8 cordas e
-            <span class="title">compatível com as principais plataformas: Windows, Mac, Linux</span>.
-            Não importa qual seja Guitar Pro 6 é ideal para estudar, trabalhar ou se divertir é o melhor programa para quem adora música disponível para você.
+        <p class="title">
+            Facilidade e Tradição
         </p>
-        <div class="content-half">
-            <h3>Guitar Pro 6 - Digital Download</h3>
-            <a id="BuyNowDigitalAction" href="<?php echo get_home_url(); ?>/loja/guitar-pro-6-versao-digital" title="Comprar Versão Digital">
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/painel-digital.jpg" alt="comprar versão digital" />
-            </a>
-        </div>
-        <div class="content-half no-margin">
-            <h3>Guitar Pro 6 - Box DVD</h3>
-            <a id="BuyNowBoxAction" href="<?php echo get_home_url(); ?>/loja/guitar-pro-6-box-dvd" title="Comprar Box DVD">
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/painel-box.jpg" alt="comprar box dvd" />
-            </a>
-        </div>
+        <p>
+            Guitar Pro é o primeiro software concebido para edição de tablaturas para guitarra, baixo e outros instrumentos de 4-8 cordas e...
+        </p>
+        <p class="title">
+            ...compatível com as Principais Plataformas
+        </p>
+        <p>
+           <strong>Windows, Mac, Linux</strong>, não importa qual seja Guitar Pro 6 é ideal para estudar, trabalhar ou se divertir é o melhor programa para quem adora música disponível para você e por um ótimo preço
+        </p>
+        <a id="BuyNowBoxAction" href="http://www.guitarpro6.com.br/loja/guitar-pro-6-box-dvd" title="Comprar Box DVD">
+            Comprar Box DVD
+        </a>
+        <a id="BuyNowDigitalAction" href="http://www.guitarpro6.com.br/loja/guitar-pro-6-versao-digital" title="Comprar Versão Digital">
+            Comprar Versão Digital
+        </a>
     </div>
 
     <div id="presentation-info">
